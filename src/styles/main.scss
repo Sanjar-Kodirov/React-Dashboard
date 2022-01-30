@@ -1,0 +1,18 @@
+@import "./abstracts/_mixins.scss";
+@import "./abstracts/_variables.scss";
+
+@import "./base/_base.scss";
+@import "./base/_typography.scss";
+
+@import "../components/sidebar/sidebar.scss";
+@import "../components/topbar/topbar.scss";
+@import "../components/featuredinfo/featuredInfo.scss";
+@import "../components/CardLg/CardLg.scss";
+@import "../components/CardSm/CardSm.scss";
+@import "../components/AudienceAge/audienceAge.scss";
+@import "../components/TopChannels/TopChannels.scss";
+
+@import "../pages/Home/home.scss";
+@import "../pages/ProfileInfo/ProfileInfo.scss";
+
+@import "./app.scss";

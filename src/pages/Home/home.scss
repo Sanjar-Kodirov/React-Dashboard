@@ -1,0 +1,38 @@
+.home {
+  display: grid;
+  padding: 1.7rem 3.2rem;
+  flex: 4;
+}
+.home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "featured-main featured-main featured-main"
+    "cardLg cardLg cardSm";
+  // ". . .";
+  @media only screen and (max-width: 1110px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "featured-main featured-main featured-main"
+      "cardLg cardLg cardLg"
+      "cardSm cardSm cardSm"
+      ;
+    // ". . .";
+}
+}
+
+.featured-main {
+  grid-area: featured-main;
+}
+
+.cardLg {
+  grid-area: cardLg;
+}
+
+.cardSm {
+  grid-area: cardSm;
+}
